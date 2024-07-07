@@ -1,2 +1,2 @@
-# League-Bot
+# League Bot
 A Football Fusion League Bot.
