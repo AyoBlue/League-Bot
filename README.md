@@ -1,2 +1,2 @@
 # League Bot
-W.I.P
+Release Date: 7/8/2024
