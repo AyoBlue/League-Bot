@@ -1,6 +1,6 @@
 import disnake as discord
 from disnake.ext import commands
-from data import client
+from data import config
 from colorama import Fore
 import sys
 import os
@@ -13,7 +13,7 @@ for file in os.listdir('cogs'):
 
 os.system('cls' if sys.platform == 'win32' else 'clear')
 try:
-    bot.run(client.token)
+    bot.run(config['token'])
 except discord.errors.LoginFailure:
     print(f'{Fore.RED}Invalid Token!{Fore.RESET}')
 except discord.errors.PrivilegedIntentsRequired:
